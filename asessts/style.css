@@ -1,0 +1,104 @@
+
+body {
+    background: #76b852; /* fallback for old browsers */
+    background: -webkit-linear-gradient(right, #76b852, #8DC26F);
+    background: -moz-linear-gradient(right, #76b852, #8DC26F);
+    background: -o-linear-gradient(right, #76b852, #8DC26F);
+    background: linear-gradient(to left, #76b852, #8DC26F);
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.title {
+    text-align: center;
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: -40px;
+}
+
+.page {
+    padding: 8% 0 0;
+    margin: auto;
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    width: 600px;
+    background: #FFFFFF;
+    margin: 0 auto 20px;
+    padding: 15px 25px 25px  25px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.msg {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto;
+    margin-top: -130px;
+    padding: 15px 25px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.form button:hover, .form button:active, .form button:focus {
+    background: #43A047;
+}
+
+/* Spinner */
+.spinner2 {
+    margin: 21% 0 0px 49%;
+    height: 28px;
+    width: 28px;
+    animation: rotate 0.8s infinite linear;
+    border: 2px solid #2a3f54;
+    border-right-color: transparent;
+    border-radius: 50%;
+    box-shadow: inset 1px 0px 1px 0px;
+}
+
+.spinnerText{
+    margin: 2% 0 0 40%;
+}
+
+@keyframes rotate {
+    0%    { transform: rotate(0deg);   }
+    50%   { transform: rotate(180deg); }
+    100%  { transform: rotate(360deg); }
+}
+
+.sobreposicao {
+    width: 94%;
+    height: 95%;
+    position: absolute;
+    background: rgba(255,255,255,.75);
+    z-index: 1000;
+}

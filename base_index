@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title> Página gerada pelo gerador de Host Virtual.</title>
+    <style>
+        h1 {
+            font-size: 1.5em;
+            text-align: center;
+            color: #ccc;
+        }
+    </style>
+</head>
+<body>
+<h1>Ola, seja bem vindo(a) a sua página gerada de forma dinâmica pelo gerador de Hosts Virtuais!</h1>
+</body>
+</html>
